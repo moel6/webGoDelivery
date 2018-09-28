@@ -36,7 +36,7 @@
 }
 
 .grd4 {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #3EA451, #6338dd) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #3EA451, #2e6b35) repeat scroll 0 0;
 }
 .grd5 {
     background: rgba(0, 0, 0, 0) linear-gradient(to right, #9600ff, #002ef2) repeat scroll 0 0;
@@ -111,9 +111,9 @@ div.sidewrapper.sidenav,
 .btn-orange.disabled, .btn-orange:disabled,
 .btn-orange:active, .btn-orange.active,
 .show > .btn-orange.dropdown-toggle  {
-  color:#ffffff;
-    background-color: #090c1e !important;
-    border-color: #090c1e !important;
+  color:#3EA451;
+    background-color: #2e6b35 !important;
+    border-color: #2e6b35 !important;
 }
 
 .menu-image .btn,
