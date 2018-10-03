@@ -24,6 +24,7 @@
 <link href="style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <link href="css/colors.css" rel="stylesheet">
+<link href="css/toggle-switch.css" rel="stylesheet">
 
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -70,199 +71,43 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTopMenu" aria-controls="navbarTopMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Go Delivery</a>
+                <a class="navbar-brand text-success" href="index.html">Go Delivery</a>
                 <div class="collapse navbar-collapse" id="navbarTopMenu">
                     <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                        <li><a class="nav-link" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="contact.html">Contact</a></li>
-                        <li><a class="nav-link" href="inloggen.html">Inloggen</a></li>
+                        <li><a class="nav-link text-success" href="index.html">Home</a></li>
+                        <li><a class="nav-link text-success" href="contact.html">Contact</a></li>
+                        <li><a class="nav-link text-success" href="inloggen.html">Inloggen</a></li>
                     </ul>
                 </div>
             </nav>
         </div><!--/.container inside nav-->
     </header>
 
-    <section class="hero">
-        <div class="magnifier grd3"></div>
+    <section class="text-center section">
+        <div class="magnifier bg-white"></div>
         <div class="container">
             <div class="hero-desc">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 p-3">
+                        <img src="images/flogo.png" class="logo" alt="">
                         <h2>Go Delivery</h2>
-                        <p class="lead">Meer dan alleen een bezorgrobot</p>
+                    </div>
+                    <div class="col-md-12">
+                        <p class="lead">Status: onderweg</p>
+                        <p class="lead">Robot: Robot2</p>
+                        <p class="lead">Runtime: MMSS</p>
+                        <p class="lead">Beschikbaarheid</p>
+                        <div class="switch">
+                            <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round-flat" type="checkbox">
+                            <label for="cmn-toggle-2"></label>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <a href="#first-section" class="bottom-button"><i class="flaticon-mouse"></i></a>
+
 
     </section><!-- end section -->
-
-    <section class="section" id="first-section">
-        <div class="container">
-            <div class="section-title cpurple text-left">
-                <h4>Meer dan alleen nee bezorgrobot</h4>
-                <h2>Nederlandse consumenten besteedden € 22,5 miljard online in 2017.</h2>
-            </div><!-- end section-title -->
-
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="media service-style-03">
-                        <i class="d-flex mr-4 flaticon-open-box"></i>
-                        <div class="media-body">
-                            <h5 class="mt-0">Fysieke last bij bezorgen</h5>
-                            <p>
-                                Een groei van meer online bestellingen staat gelijk aan meer werklast voor portiers in grote gebouwen zoals een woontoren of een appartementencomplex.
-                                Met Go Delivery wordt de werklast afgenomen als het gaat om bezorgen afleveren in eigen pand.
-                            </p>
-                        </div><!-- end media-body -->
-                    </div><!-- end media -->
-                </div><!-- end col -->
-
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="media service-style-03 mobmartop30">
-                        <i class="d-flex mr-4 flaticon-mail-send"></i>
-                        <div class="media-body">
-                            <h5 class="mt-0">Op de hoogte blijven van je bezorging</h5>
-                            <p>
-                                Met behulp tweeweg communicatie is het mogelijk om bewoners van een pand op de hoogte te houden van status van bezorgingen. Hierdoor is het voor bewoners ook mogelijk om
-                                beschikbaarheid aan en uit te zetten. Hierdoor wordt er alleen bezorgt wanneer een bewoner ook daadwerkelijk beschikbaar en/of thuis is.
-                            </p>
-                        </div><!-- end media-body -->
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <hr class="invis1">
-
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="media service-style-03">
-                        <i class="d-flex mr-4 flaticon-check-list"></i>
-                        <div class="media-body">
-                            <h5 class="mt-0">XML Import / Export</h5>
-                            <p>Nunc at dignissim leo. Nullam vulputate ac nulla consectetur tincidunt. Phasellus auctor malesuada odio vel eleifend. Suspendisse cras amet.</p>
-                        </div><!-- end media-body -->
-                    </div><!-- end media -->
-                </div><!-- end col -->
-
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="media service-style-03 mobmartop30">
-                        <i class="d-flex mr-4 flaticon-qr-code"></i>
-                        <div class="media-body">
-                            <h5 class="mt-0">Mobile Optimized</h5>
-                            <p>Suspendisse ultricies tincidunt libero, ut ultricies orci ultricies nec. Cras laoreet interdum dapibus. Morbi aliquam finibus ipsum sit sed.</p>
-                        </div><!-- end media-body -->
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end section -->
-
-    <section class="section bt littlepad">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-5">
-                    <div class="screen-normal wow slideInLeft">
-                        <!--TODO foto van (prototype) robot gebruiken-->
-                        <img src="upload/device_02.png" alt="" class="img-fluid">
-                    </div><!-- end screen -->
-                </div><!-- end col -->
-
-                <div class="col-md-7 mobmartop30">
-                    <div class="tagline-v2 padleft30">
-                        <h3>Prototype (proftaak deliverable)</h3>
-                        <p>Momenteel wordt er nog gewerkt met een prototype. Deze werkt zoals het concept het beschrijft.</p>
-                        <a target="_blank" href="upload/Conceptbeschrijving%20Proftaak%20Groep%20A.pdf" class="btn btn-gradient grd4 withradius secbtn withicon">Bekijk conceptbeschrijving<i class="fa fa-long-arrow-right"></i></a>
-                    </div><!-- end tagline -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end section -->
-
-    <section  class="section lb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h4>Over ons</h4>
-                <h2>Proftaak Groep A </h2>
-            </div><!-- end section-title -->
-
-            <div id="works_01" class="owl-carousel owl-theme owl-style-02">
-                <div class="owl-work-item">
-                    <div class="portfolio-ver-01">
-                        <div class="media-element">
-                            <img src="upload/work_01.jpg" alt="" class="img-fluid">
-                        </div><!-- end media -->
-                        <div class="portfolio-details">
-                            <h4><a href="#">Ricardo Meulendijks </a></h4>
-                            <p>Working on an illustrations with a stunning @Vlad Ches</p>
-                        </div><!-- end details -->
-                    </div><!-- end portfolio-ver -->
-                </div><!-- end col -->
-
-                <div class="owl-work-item">
-                    <div class="portfolio-ver-01">
-                        <div class="media-element">
-                            <img src="upload/work_02.jpg" alt="" class="img-fluid">
-                        </div><!-- end media -->
-                        <div class="portfolio-details">
-                            <h4><a href="#">Jordy Cramer</a></h4>
-                            <p>Working on an illustrations with a stunning @Vlad Ches</p>
-                        </div><!-- end details -->
-                    </div><!-- end portfolio-ver -->
-                </div><!-- end col -->
-
-                <div class="owl-work-item">
-                    <div class="portfolio-ver-01">
-                        <div class="media-element">
-                            <img src="upload/work_03.jpg" alt="" class="img-fluid">
-                        </div><!-- end media -->
-                        <div class="portfolio-details">
-                            <h4><a href="#">Mitchel Kuijpers</a></h4>
-                            <p>One of the options of the e-commerce layout for online</p>
-                        </div><!-- end details -->
-                    </div><!-- end portfolio-ver -->
-                </div><!-- end col -->
-
-                <div class="owl-work-item">
-                    <div class="portfolio-ver-01">
-                        <div class="media-element">
-                            <img src="upload/work_01.jpg" alt="" class="img-fluid">
-                        </div><!-- end media -->
-                        <div class="portfolio-details">
-                            <h4><a href="#">Mai Linh Luong</a></h4>
-                            <p>Working on an illustrations with a stunning @Vlad Ches</p>
-                        </div><!-- end details -->
-                    </div><!-- end portfolio-ver -->
-                </div><!-- end col -->
-
-                <div class="owl-work-item">
-                    <div class="portfolio-ver-01">
-                        <div class="media-element">
-                            <img src="upload/work_02.jpg" alt="" class="img-fluid">
-                        </div><!-- end media -->
-                        <div class="portfolio-details">
-                            <h4><a href="#">Mohamed El Ouakili</a></h4>
-                            <p>Working on an illustrations with a stunning @Vlad Ches</p>
-                        </div><!-- end details -->
-                    </div><!-- end portfolio-ver -->
-                </div><!-- end col -->
-
-                <div class="owl-work-item">
-                    <div class="portfolio-ver-01">
-                        <div class="media-element">
-                            <img src="upload/work_03.jpg" alt="" class="img-fluid">
-                        </div><!-- end media -->
-                        <div class="portfolio-details">
-                            <h4><a href="#">Nathan Pas</a></h4>
-                            <p>One of the options of the e-commerce layout for online</p>
-                        </div><!-- end details -->
-                    </div><!-- end portfolio-ver -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end section -->
-
 
     <footer class="footer section">
         <div class="container">
@@ -332,7 +177,6 @@
     </footer><!-- end footer -->
 </div><!-- end wrapper -->
 
-<div class="dmtop"><i class="fa fa-long-arrow-up"></i></div>
 
 <!-- Core JavaScript
 ================================================== -->
