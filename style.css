@@ -778,7 +778,7 @@ section::after {
     z-index: 1;
     text-align: center;
     position: relative;
-    background: url(upload/demo-bg.jpg) no-repeat center center scroll; 
+    background: url(images/newyorkbackground.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1378,7 +1378,9 @@ div.sidewrapper.sidenav {
     content: ""
 } 
 .footer-logo {
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    width: 35%;
+    height: 35%;
 }
 .dmtop {
     background-color: #3EA451;
